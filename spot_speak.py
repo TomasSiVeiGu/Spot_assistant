@@ -25,8 +25,7 @@ def listen():
 from groq import Groq
 import os
 
-os.environ["GROQ_API_KEY"] = "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"
-
+os.environ["GROQ_API_KEY"] = "insert groq API key"
 
 def respond(text):
     client = Groq(api_key=os.environ.get("GROQ_API_KEY"),)
